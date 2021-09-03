@@ -1,12 +1,12 @@
 import React from "react"
-import { LocationList } from "./Locations/LocationList"
+import { LocationList } from "./LocationList/LocationList"
 
-export const Repairs = () => {
+export const KandyKorner = () => {
     return (
         <>
         <h1>KandyKorner's Kandy Store</h1>
         
-        <h2>Customer List</h2>
+        <h2>Location List</h2>
         <LocationList />
         </>
     )
