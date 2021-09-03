@@ -19,7 +19,7 @@ export const LocationList = () => {
             {
                 locations.slice(0, 5).map(
                     (locationObject) => {
-                        return <h2 key={`location--${locationObject.id}`}>{locationObject.name}</h2>
+                        return <h2 key={`location--${locationObject.id}`}>{locationObject.address}</h2>
                     }
                 )
             }
